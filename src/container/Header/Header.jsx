@@ -34,6 +34,9 @@ const Header = () => {
           </div>
           <div className="tag-cmp app_flex">
             <p className="p-text">Full Stack Developer</p>
+            <p className="p-text">US Army veteran</p>
+            <p className="p-text">Logistics Expert</p>
+            <p className="p-text">Leader</p>
           </div>
         </div>
       </motion.div>
@@ -44,7 +47,7 @@ const Header = () => {
         className="app__header-img"
       >
         {/* Blas Probably going to turn this off below */}
-        {/* <img src={images.profile} alt="profile_bg"/> */}
+        <img className='blas' src={images.blas} alt="profile_bg"/>
         <motion.img
           whileInView={{ scale: [0, 1]}}
           transition={{ duration: 1, ease: 'easeInOut' }}
